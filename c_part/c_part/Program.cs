@@ -19,6 +19,7 @@ namespace c_part
 
         static void Translatttt(NumericalExpression numericalExpression)
         {
+            Console.WriteLine(numericalExpression.ToString());
             Console.WriteLine(numericalExpression.LongToString(numericalExpression.GetValue(), TranslateItalian));
         }
 

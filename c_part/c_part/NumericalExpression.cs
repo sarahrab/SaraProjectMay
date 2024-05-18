@@ -135,6 +135,8 @@ namespace c_part
             return LongToString(numericalExpression.GetValue()).Replace(" ", "").Length;
         }
 
+        //using Func: 
+
         public string LongToString(long num, Func<long, string> translate)
         {
             if (num <= 20)
